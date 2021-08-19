@@ -30,10 +30,7 @@ public class Employee
         System.out.println("ЗП: " + salary);
         System.out.println("Возраст: " + age);
     }
-
-    public static class Main
-    {
-        public static void main(String[] args)
+    public static void main(String[] args)
         {
             Employee[] employees =
                     {
@@ -82,7 +79,7 @@ public class Employee
             }
         }
     }
-}
+
 
 
 
