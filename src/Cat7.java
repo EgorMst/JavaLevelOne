@@ -20,11 +20,11 @@ public class Cat7
         }
         else if (!plate.hasEnoughFoodFor(appetite))
         {
-            System.out.println(name + " котейка шипит, тарелка почти пуста!");
+            System.out.println(name + " котейка шипит, миска почти пуста!");
         }
         else if (isFull)
         {
-            System.out.println("У " + name + " в пузе уже есть корм!");
+            System.out.println("У " + name + " в животе есть корм!");
         }
     }
 }
